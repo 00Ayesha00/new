@@ -1,0 +1,69 @@
+
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono" rel="stylesheet" />
+
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="pro.css">
+	<script src="proj.js"></script>
+    <title>Ayesha's cv</title>
+	
+</head>
+
+
+<body onload="draw()">
+    <canvas id="bg"></canvas>
+    <main id="content">
+        <h1>
+            <div class="hex moved"></div><span>About me</span></h1>
+        <div class="subtext" id="main">
+            <p>Name: Ayesha <br>
+				Last Name: Naser <br>
+				Nationality: Afghan<br>
+				Date of birth: 14\May\2001<br>
+				Place of birth: Herat_Afghanistan</p>
+            <p>I wanted to be a free launcer for most of my life. Therefore, after graduating from school, I continued my studies in the field of computer science, and after that I got to know the cti institute and enrolled as a full-stack student.  </p>
+        </div>
+        <h2>
+			<div class="hex"></div><span>Education</span></h2>
+			<div class="subtext coll">
+				2007 – 2019 High School Diploma (General regular High School)
+	Mahjuba Herawi High School, Herat, Afghanistan<br>2020 Started Database Department of Computer Science Faculty Herat University,
+	Heat, Afghanistan<br>2022-january Joined as a member of CS OF CS in computer science faculty<br>2022(Aug-Oct) Nano Net English course	</div>
+	<h2> <div class="hex"></div><span>Skills</span></h2>
+        <div class="subtext coll">
+            I am fluent in  HTML and CSS, I know Java and JS very well and I am good in react js and sql too. besides of my coding talent, I am good at using office package and speaking English
+        </div>
+        <h2>
+            <div class="hex"></div><span>Hobbies & Interests</span></h2>
+        <div class="subtext coll">
+            simple coding projects (semi-professionally).reading (eagerly). Music (unprofessionally). multiplayer online games (clumsily). Cooking (hungrily).
+        </div>
+        
+        
+        <h2>
+            <div class="hex"></div><span>Contact Me</span></h2>
+        <div class="subtext coll">
+            <ul>
+                <li>E-mail: <a>Ayeshasaber80@gmail.com</a></li>
+                <li>phone number: <a>0799999999</a></li>
+            </ul>
+        </div>
+    </main>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+    <div id="hex-holder">
+        <div class="hex" id="uno"></div>
+        <div class="hex" id="dos"></div>
+        <div class="hex" id="tres"></div>
+    </div>
+	<div id="output"></div>
+   
+
+</body>
+
+</html>
